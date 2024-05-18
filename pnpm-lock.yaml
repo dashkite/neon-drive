@@ -17,6 +17,12 @@ importers:
       '@dashkite/neon':
         specifier: link:../neon
         version: link:../neon
+      '@dashkite/neon-message':
+        specifier: link:../neon-message
+        version: link:../neon-message
+      '@dashkite/neon-oxygen':
+        specifier: link:../neon-oxygen
+        version: link:../neon-oxygen
       '@dashkite/neon-profile':
         specifier: link:../neon-profile
         version: link:../neon-profile

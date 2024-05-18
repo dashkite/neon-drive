@@ -3,7 +3,8 @@ import * as Pred from "@dashkite/joy/predicate"
 import * as Ne from "@dashkite/neon"
 import Registry from "@dashkite/helium"
 import Profile from "@dashkite/neon-profile"
-import Router from "@dashkite/rio-oxygen"
+import Router from "@dashkite/neon-oxygen"
+import Message from "@dashkite/neon-message"
 
 connected = ({ path, name, view, success, properties... }) ->
 
@@ -24,6 +25,7 @@ connected = ({ path, name, view, success, properties... }) ->
           if success?
             Ne.success Router.browse success
           else Fn.identity
+          Ne.failure Message.show
         ]
       ]
       [ 
