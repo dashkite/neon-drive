@@ -5,7 +5,7 @@ import Registry from "@dashkite/helium"
 import Profile from "@dashkite/neon-profile"
 import Router from "@dashkite/rio-oxygen"
 
-connected = ({ path, name, view, properties... }) ->
+connected = ({ path, name, view, success, properties... }) ->
 
   router = await Registry.get "router"
 
@@ -21,6 +21,9 @@ connected = ({ path, name, view, properties... }) ->
           Ne.view "main", view
           Ne.show
           Ne.dispose
+          if success?
+            Ne.success Router.browse success
+          else Fn.identity
         ]
       ]
       [ 
