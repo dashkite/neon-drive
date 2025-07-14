@@ -49,9 +49,9 @@
     "@dashkite/helium": "^0.4.4",
     "@dashkite/joy": "link:../joy",
     "@dashkite/neon": "link:../neon",
-    "@dashkite/neon-message": "link:../neon-message",
-    "@dashkite/neon-oxygen": "link:../neon-oxygen",
-    "@dashkite/neon-profile": "link:../neon-profile",
+    "@dashkite/neon-message": "0.3.0",
+    "@dashkite/neon-oxygen": "0.4.0",
+    "@dashkite/neon-profile": "0.4.0",
     "@dashkite/rio-oxygen": "link:../rio-oxygen"
   }
 }

@@ -18,14 +18,14 @@ importers:
         specifier: link:../neon
         version: link:../neon
       '@dashkite/neon-message':
-        specifier: link:../neon-message
-        version: link:../neon-message
+        specifier: 0.3.0
+        version: 0.3.0
       '@dashkite/neon-oxygen':
-        specifier: link:../neon-oxygen
-        version: link:../neon-oxygen
+        specifier: 0.4.0
+        version: 0.4.0
       '@dashkite/neon-profile':
-        specifier: link:../neon-profile
-        version: link:../neon-profile
+        specifier: 0.4.0
+        version: 0.4.0
       '@dashkite/rio-oxygen':
         specifier: link:../rio-oxygen
         version: link:../rio-oxygen
@@ -641,6 +641,15 @@ packages:
 
   '@dashkite/masonry@0.13.0':
     resolution: {integrity: sha512-qGP0Ortn8tzBTY9BRv965V5IIhJCmsNMTjLq0X7Pk80lBgNROc+tV/5BXjziBZ9CG7fcJ5h3ZvCsl1f6byfsFQ==}
+
+  '@dashkite/neon-message@0.3.0':
+    resolution: {integrity: sha512-qhFkUUR8vFtH5qQpOaVoW3nm2m9RSY7znUlAFEuL9iJblr7+6m+eQXq43Yxz0KHbxFCbbBiAlfI/gpMKGaT8sw==}
+
+  '@dashkite/neon-oxygen@0.4.0':
+    resolution: {integrity: sha512-LlqwcrNTAmp9azwL/8vamD6nNWbsLNtMW9VvjTiw+Zmkxl3ZZuhD7l+OJs5y8eRhdBugs86Oz50Fno373ZY3oA==}
+
+  '@dashkite/neon-profile@0.4.0':
+    resolution: {integrity: sha512-tblWWA4fyNDcOKG2r2kXuCc0yWoBTwwJhPYsGTG6UMrn/TF22/jqGS/+x0L8OJcEN3l/sTjGEwgSgJsB5xqF5A==}
 
   '@dashkite/zephyr@0.2.0':
     resolution: {integrity: sha512-l3Fm9nyOIp1yBnv4IzGOKVgo1/UucU5WLvsqAfcP2jEVlE4AgpPkODssyloxTyC3N+bhcz1DXqC/7KokI1eVjA==}
@@ -2182,6 +2191,16 @@ snapshots:
       fast-glob: 3.3.3
     transitivePeerDependencies:
       - supports-color
+
+  '@dashkite/neon-message@0.3.0':
+    dependencies:
+      '@dashkite/helium': 0.4.4
+
+  '@dashkite/neon-oxygen@0.4.0':
+    dependencies:
+      '@dashkite/helium': 0.4.4
+
+  '@dashkite/neon-profile@0.4.0': {}
 
   '@dashkite/zephyr@0.2.0':
     dependencies:
