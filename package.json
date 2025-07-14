@@ -52,6 +52,6 @@
     "@dashkite/neon-message": "0.3.0",
     "@dashkite/neon-oxygen": "0.4.0",
     "@dashkite/neon-profile": "0.4.0",
-    "@dashkite/rio-oxygen": "link:../rio-oxygen"
+    "@dashkite/rio-oxygen": "0.3.0"
   }
 }

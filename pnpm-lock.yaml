@@ -27,8 +27,8 @@ importers:
         specifier: 0.4.0
         version: 0.4.0
       '@dashkite/rio-oxygen':
-        specifier: link:../rio-oxygen
-        version: link:../rio-oxygen
+        specifier: 0.3.0
+        version: 0.3.0
     devDependencies:
       '@dashkite/amen':
         specifier: ^0.2.0
@@ -636,6 +636,9 @@ packages:
   '@dashkite/kaiko@0.3.3':
     resolution: {integrity: sha512-XnAvVr9y2MsDqMLr4A24vkLF7Iuq3E8RjHEEpqhe29P5NevVX9jXKcXUStNMp9MSJbjHd2pqUNiM5Vvdja9ggg==}
 
+  '@dashkite/katana@0.4.8':
+    resolution: {integrity: sha512-KOfMS5aRZItxPeMv0OXbOTCj5BZhN9jM190jae8HB7WgGB5uM5jEzRWmyh3yVbxTaL83o7csktRzUkxkr/Op1A==}
+
   '@dashkite/masonry-coffee@0.2.0':
     resolution: {integrity: sha512-xJO48SIRpsYbJF32CwpA6yeEJhNh+DtxCucyt4MNJqO0yru9X7hoxZsHneRoUE+kISD0KTO8DLQiHv21nU/V2A==}
 
@@ -653,6 +656,9 @@ packages:
 
   '@dashkite/neon-profile@0.4.0':
     resolution: {integrity: sha512-tblWWA4fyNDcOKG2r2kXuCc0yWoBTwwJhPYsGTG6UMrn/TF22/jqGS/+x0L8OJcEN3l/sTjGEwgSgJsB5xqF5A==}
+
+  '@dashkite/rio-oxygen@0.3.0':
+    resolution: {integrity: sha512-Zn3BgMsHIdxybyGV/WH68Q1ERb8L6UjxZN6Gss2vfydLKAnwDeSGzoOx5nmS50/T6sI8XFvkrDIIA6oiJ2Fs0g==}
 
   '@dashkite/zephyr@0.2.0':
     resolution: {integrity: sha512-l3Fm9nyOIp1yBnv4IzGOKVgo1/UucU5WLvsqAfcP2jEVlE4AgpPkODssyloxTyC3N+bhcz1DXqC/7KokI1eVjA==}
@@ -2174,6 +2180,10 @@ snapshots:
 
   '@dashkite/kaiko@0.3.3': {}
 
+  '@dashkite/katana@0.4.8':
+    dependencies:
+      '@dashkite/joy': 0.3.16
+
   '@dashkite/masonry-coffee@0.2.0':
     dependencies:
       '@swc/core': 1.12.11
@@ -2206,6 +2216,12 @@ snapshots:
       '@dashkite/helium': 0.4.4
 
   '@dashkite/neon-profile@0.4.0': {}
+
+  '@dashkite/rio-oxygen@0.3.0':
+    dependencies:
+      '@dashkite/helium': 0.4.4
+      '@dashkite/joy': 0.5.0
+      '@dashkite/katana': 0.4.8
 
   '@dashkite/zephyr@0.2.0':
     dependencies:
