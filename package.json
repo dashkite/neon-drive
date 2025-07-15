@@ -49,7 +49,7 @@
   "dependencies": {
     "@dashkite/helium": "^0.8.0",
     "@dashkite/joy": "0.7.0",
-    "@dashkite/neon": "link:../neon",
+    "@dashkite/neon": "0.6.0",
     "@dashkite/neon-message": "0.6.0",
     "@dashkite/neon-oxygen": "0.7.0",
     "@dashkite/neon-profile": "0.7.0",

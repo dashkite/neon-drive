@@ -15,8 +15,8 @@ importers:
         specifier: 0.7.0
         version: 0.7.0
       '@dashkite/neon':
-        specifier: link:../neon
-        version: link:../neon
+        specifier: 0.6.0
+        version: 0.6.0
       '@dashkite/neon-message':
         specifier: 0.6.0
         version: 0.6.0
@@ -666,6 +666,9 @@ packages:
   '@dashkite/neon-profile@0.7.0':
     resolution: {integrity: sha512-FQ2V+E3MMd9Xl1Bp/mjDEwiGzojMPB8QwzwKAEi3a3/2JNA++q7Xb1JpR/YuBaWJBxO6I9O1DCqwcYOyG8MLCA==}
 
+  '@dashkite/neon@0.6.0':
+    resolution: {integrity: sha512-dToni8wJxG9CgJi0LTZV3Hz53jMaC3QP6AwDMcQymq1TbUeioTOdS1WaiU5x0mDbDDhNbTVH9WHcbyNREP2sGA==}
+
   '@dashkite/rio-oxygen@0.6.0':
     resolution: {integrity: sha512-mMq2g0H6AgXtWIKOQFFKUA7ky0ds5tVO2cE4CVXJT/YGujsBoFHycbK2HMRsnP6rydZVVYvZ4olEvppWXjDa0A==}
 
@@ -929,6 +932,9 @@ packages:
 
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
+
+  diffhtml@1.0.0-beta.20:
+    resolution: {integrity: sha512-xSSwGb2dkQsTc7Bl910iySH65PkzsCtowfVGMfrmc2fEwvYrhJUpIEIx+3mpZ1wMWVt+t/0ltVwrjQkMJotxLg==}
 
   doctrine@3.0.0:
     resolution: {integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==}
@@ -2233,6 +2239,11 @@ snapshots:
 
   '@dashkite/neon-profile@0.7.0': {}
 
+  '@dashkite/neon@0.6.0':
+    dependencies:
+      '@dashkite/joy': 0.7.0
+      diffhtml: 1.0.0-beta.20
+
   '@dashkite/rio-oxygen@0.6.0':
     dependencies:
       '@dashkite/helium': 0.4.4
@@ -2483,6 +2494,8 @@ snapshots:
       ms: 2.1.3
 
   deep-is@0.1.4: {}
+
+  diffhtml@1.0.0-beta.20: {}
 
   doctrine@3.0.0:
     dependencies:
